@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  padding-bottom: 15px;
+  }
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    }
+
+    a {
+      color: brown;
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-top: 2em;
+      font-size: 3opx;
+    }
+
+  #navbar {
+    background: antiquewhite;
+    overflow: auto;
+    color: chocolate;
+    position: fixed;
+   top: 0;
+   width: 100%;
+  }
+
+  #navbar a {
+    color: chocolate;
+  }
+  /* removing te bullets in the list */
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  /* float list items in the left to have them horiontaly align */
+  #navbar ul li {
+    float: left;
+  }
+  /* convert anchor link to block elements to apply some padding */
+  #navbar ul li a {
+    display: block;
+    padding: 20px 45px;
+  }
+  #navbar h1 {
+      float: left;
+      padding-top: 20px;
+  }
+  
+  /* navigation using pseudo selector */
+  #navbar ul li a:hover {
+    background: antiquewhite;
+    color: darkgray;
+  }
+  
+  #navbar ul li a.active {
+    background: antiquewhite;
+  }
+#list {
+    margin: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    padding-top: 30px;
+    font-size: 25px
+}
+.text {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 43%;
+    line-height: 1.5em;
+    color: rgb(104, 85, 85);
+}
+#f1 {
+    margin-left: 17%;
+    float: left;
+    width: 40%;
+}
+#f1-1{
+    margin-right: 17%;
+    float: right;
+    width: 40%;
+}
+#f2 {
+    float: right;
+    margin-right: 22%;
+    width: 19%;
+}
+#f2-2 {
+    float: left;
+    margin-left: 22%;
+    width: 19%;
+}
+#f3 {
+    float: right;
+    width: 19%;
+    margin-right: 22%;
+    padding-top: 1.5em;
+}
+#f3-3 {
+    float: left;
+    width: 19%;
+    margin-left: 22%;
+    padding-top: 1.5em;
+}
+.resto-one .lead-head {
+    text-align: center;
+    font-size: 40px;
+    background: #fff;
+    padding: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+.italic {
+    padding-top: 0.8em;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 23px;
+    color: rgb(155, 96, 96);
+}
+
+.contacts {
+    font-size: 16px;
+    text-decoration: none; 
+    font-family: 'Kanit', sans-serif;
+}
+.fbig  {
+    text-decoration: none;
+    color: rgb(155, 96, 96);
+}
+.par {
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 2em;
+}
+.icon {
+    font-size: 13px;
+}
+.icon-2 {
+  font-size: 15px;
+}
+.next {
+    color: rgb(155, 96, 96);
+    float: right;
+    margin-right: 30%;
+}
+.prev {
+  color: rgb(155, 96, 96);
+  float: left;
+  margin-left: 30%;
+}
+footer {
+    background: antiquewhite;
+    height: 130px;
+    overflow: auto;
+    /* padding-bottom: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    font-size: 15px;
+  }
+  
+  .foot {
+    color: black;
+    text-align: center;
+    line-height: 1em;
+    padding-top: 0.5px;
+  }
+  
+  #dd {
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+  }
+  
+  #footer {
+    text-decoration: underline;
+  }
+
+  
